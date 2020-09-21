@@ -26,7 +26,5 @@ Created on Mon Sep 21 08:03:21 2020
 # string='I LOVE YOU'
 # import random as r
 # a=r.randint(1,100)
-# b='so'
-# c=b*a
-# d='much'
-# print(string,c,d)
+# b='so'*a+' much'
+# print(string,b)
