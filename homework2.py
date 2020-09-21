@@ -18,7 +18,7 @@ Created on Mon Sep 21 08:03:21 2020
 # print(s)
 
 # string='I LOVE YOU'
-# s=string+'so'*100
+# s=string+' so'*100
 # t='much'
 # print(s,end='')
 # print(t)
