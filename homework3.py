@@ -39,7 +39,8 @@ Created on Mon Sep 28 08:12:43 2020
 #     print()
 
 # string='I LOVE YOU'
-# import random as r
-# a=r.randint(1,1000)
-# b=' so'*a+' much'
-# print(string,b)
+# import random as i
+# a=i.randint(1,100)
+# for b in range(a):
+#     c=' so'*b+' much'
+# print(string,c)
