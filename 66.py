@@ -64,7 +64,6 @@ with open('666.csv','w+',newline='', encoding="utf-8-sig") as csvfile:
             now1=now.strftime('%Y%m%d')
     
             n_days1=n_days.strftime('%Y%m%d')
-            a=n_days1[-2:]
 
             driver.get("https://www.ettoday.net/news/news-list-2020-12-10-0.htm")
             driver.find_element_by_id("selY").click()
