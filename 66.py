@@ -50,19 +50,19 @@ with open('666.csv','w+',newline='', encoding="utf-8-sig") as csvfile:
 
     
 
-        now_date = time.strftime("%Y%m%d")
+    now_date = time.strftime("%Y%m%d")
+    day=int(now_date[-2:])
 
 
-        n_days1=5
+    n_days1=5  
 
-        for i in range(0,n_days1):
-    
-
+    for i in range(0,n_days1+1):
             now = datetime.datetime.now()
             delta = datetime.timedelta(days=i)
             n_days = now-delta
             now1=now.strftime('%Y%m%d')
     
+
             n_days1=n_days.strftime('%Y%m%d')
 
             driver.get("https://www.ettoday.net/news/news-list-2020-12-10-0.htm")
